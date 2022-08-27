@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="foo.js"></script>
+
+
+</head>
+
+   <body>
+      <table width = "100%" border = "0">
+         
+         <tr>
+            <td colspan = "2" style="background:#000000">
+               <h1></h1>
+            </td>
+         </tr>
+         <tr valign = "top">
+            <td width = "50">
+               <canvas id="defaultCanvas0"></canvas>
+               <canvas id="canv1" width="1000" height="1000" style="border:1px solid #000000;width: 50%;">
+                   Your browser does not support the HTML canvas tag.</canvas><br />
+
+            </td>
+            
+            <td bgcolor = "#eee" width = "100" height = "200">
+                puntos: <input type="input" name="txtId" id="txtId" value="12" class="txtId form-control"><br>
+                tamaño: <input type="input" name="txtId" id="txtR" value="19" class="txtId form-control"><br>
+                margen: <input type="input" name="txtId" id="txtZ" value="20" class="txtId form-control"><br>
+                % mutación: <input type="input" name="txtRate" id="txtRate" value="20" class="txtId form-control"><br>
+                <br>
+                <button id="generar" onclick="generar()">Generar</button>
+                <button id="limpiar" name="limpiar" >Limpiar</button>
+                <button id="mutar" name="mutar" onclick="mutar()" >Mutar</button>
+                <br><br>
+                <p name="txt" id="txt">c:</p>
+            </td>
+         </tr>
+         <tr>
+            <td colspan = "2" style="background:#000000"    >
+               <center>
+
+               </center>
+            </td>
+         </tr>
+         
+      </table>
+   </body>
+
+</html>
